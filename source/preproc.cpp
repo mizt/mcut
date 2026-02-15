@@ -2368,7 +2368,7 @@ extern "C" void preproc(std::shared_ptr<context_t> context_ptr,
 
 	kernel_input.src_mesh = source_hmesh;
 
-	kernel_input.verbose = true;
+	kernel_input.verbose = false;
 	kernel_input.require_looped_cutpaths = false;
 
 	//kernel_input.verbose =
